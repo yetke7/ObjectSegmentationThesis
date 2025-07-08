@@ -1,0 +1,56 @@
+2025-07-02 22:17:41,201 saving log, checkpoint and back up code in folder: log/PartnetSemanticSeg-1-Bed-L3-res-edge-n2-C64-k9-drop0.5-lr0.005_B6_20250702-221741_b454c578-2645-4bcf-a698-0d69af11f5bf
+2025-07-02 22:17:41,201 ==========       args      =============
+2025-07-02 22:17:41,201 phase:train
+2025-07-02 22:17:41,201 use_cpu:False
+2025-07-02 22:17:41,201 data_dir:/home/yusuf/DeepPicking/data/deepgcn/partnet
+2025-07-02 22:17:41,201 dataset:sem_seg_h5
+2025-07-02 22:17:41,201 category:Bed
+2025-07-02 22:17:41,201 level:3
+2025-07-02 22:17:41,201 batch_size:6
+2025-07-02 22:17:41,201 test_batch_size:10
+2025-07-02 22:17:41,201 in_channels:3
+2025-07-02 22:17:41,201 data_augment:False
+2025-07-02 22:17:41,201 total_epochs:1
+2025-07-02 22:17:41,201 iter:-1
+2025-07-02 22:17:41,201 lr_adjust_freq:50
+2025-07-02 22:17:41,201 lr:0.005
+2025-07-02 22:17:41,201 lr_decay_rate:0.9
+2025-07-02 22:17:41,201 multi_gpus:False
+2025-07-02 22:17:41,201 seed:3
+2025-07-02 22:17:41,201 pretrained_model:
+2025-07-02 22:17:41,201 k:9
+2025-07-02 22:17:41,201 block:res
+2025-07-02 22:17:41,201 conv:edge
+2025-07-02 22:17:41,201 act:relu
+2025-07-02 22:17:41,201 norm:batch
+2025-07-02 22:17:41,201 bias:True
+2025-07-02 22:17:41,201 n_filters:64
+2025-07-02 22:17:41,201 n_blocks:2
+2025-07-02 22:17:41,201 dropout:0.5
+2025-07-02 22:17:41,201 use_dilation:True
+2025-07-02 22:17:41,201 epsilon:0.2
+2025-07-02 22:17:41,201 stochastic:True
+2025-07-02 22:17:41,201 exp_name:PartnetSemanticSeg
+2025-07-02 22:17:41,201 root_dir:log
+2025-07-02 22:17:41,201 category_no:1
+2025-07-02 22:17:41,201 device:cpu
+2025-07-02 22:17:41,201 jobname:PartnetSemanticSeg-1-Bed-L3-res-edge-n2-C64-k9-drop0.5-lr0.005_B6
+2025-07-02 22:17:41,201 exp_dir:log/PartnetSemanticSeg-1-Bed-L3-res-edge-n2-C64-k9-drop0.5-lr0.005_B6_20250702-221741_b454c578-2645-4bcf-a698-0d69af11f5bf
+2025-07-02 22:17:41,201 ckpt_dir:log/PartnetSemanticSeg-1-Bed-L3-res-edge-n2-C64-k9-drop0.5-lr0.005_B6_20250702-221741_b454c578-2645-4bcf-a698-0d69af11f5bf/checkpoint
+2025-07-02 22:17:41,201 code_dir:log/PartnetSemanticSeg-1-Bed-L3-res-edge-n2-C64-k9-drop0.5-lr0.005_B6_20250702-221741_b454c578-2645-4bcf-a698-0d69af11f5bf/code
+2025-07-02 22:17:41,201 writer:<torch.utils.tensorboard.writer.SummaryWriter object at 0x73bdfd4bf0a0>
+2025-07-02 22:17:41,201 epoch:-1
+2025-07-02 22:17:41,202 step:-1
+2025-07-02 22:17:41,202 loglevel:info
+2025-07-02 22:17:41,202 ==========     args END    =============
+2025-07-02 22:17:41,202 
+
+2025-07-02 22:17:41,202 ===> Phase is train.
+2025-07-02 22:17:41,203 ===> Creating dataloader ...
+2025-07-02 22:17:41,257 ===> Loading PartNet Category 1-Bed, Semantic Segmentation level 3. Has classes 15
+2025-07-02 22:17:41,257 ===> Loading the network ...
+2025-07-02 22:17:41,283 ===> loading pre-trained ...
+2025-07-02 22:17:41,283 ===> No pre-trained model
+2025-07-02 22:17:41,283 ===> Init the optimizer ...
+2025-07-02 22:17:41,283 ===> Init Metric ...
+2025-07-02 22:17:41,283 ===> start training ...

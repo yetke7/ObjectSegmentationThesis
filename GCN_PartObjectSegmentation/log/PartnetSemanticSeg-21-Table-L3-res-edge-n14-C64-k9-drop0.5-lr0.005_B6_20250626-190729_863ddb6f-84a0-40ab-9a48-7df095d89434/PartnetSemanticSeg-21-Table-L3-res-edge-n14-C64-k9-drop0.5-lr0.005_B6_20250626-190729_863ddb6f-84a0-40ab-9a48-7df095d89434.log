@@ -1,0 +1,49 @@
+2025-06-26 19:07:29,702 saving log, checkpoint and back up code in folder: log/PartnetSemanticSeg-21-Table-L3-res-edge-n14-C64-k9-drop0.5-lr0.005_B6_20250626-190729_863ddb6f-84a0-40ab-9a48-7df095d89434
+2025-06-26 19:07:29,702 ==========       args      =============
+2025-06-26 19:07:29,702 phase:train
+2025-06-26 19:07:29,702 use_cpu:False
+2025-06-26 19:07:29,702 data_dir:/home/yusuf/DeepPicking/DeepPicking/data/deepgcn/partnet
+2025-06-26 19:07:29,702 dataset:sem_seg_h5
+2025-06-26 19:07:29,702 category:Table
+2025-06-26 19:07:29,702 level:3
+2025-06-26 19:07:29,702 batch_size:6
+2025-06-26 19:07:29,702 test_batch_size:10
+2025-06-26 19:07:29,702 in_channels:3
+2025-06-26 19:07:29,702 data_augment:False
+2025-06-26 19:07:29,702 total_epochs:500
+2025-06-26 19:07:29,702 iter:-1
+2025-06-26 19:07:29,702 lr_adjust_freq:50
+2025-06-26 19:07:29,702 lr:0.005
+2025-06-26 19:07:29,702 lr_decay_rate:0.9
+2025-06-26 19:07:29,702 multi_gpus:False
+2025-06-26 19:07:29,702 seed:3
+2025-06-26 19:07:29,702 pretrained_model:
+2025-06-26 19:07:29,702 k:9
+2025-06-26 19:07:29,702 block:res
+2025-06-26 19:07:29,702 conv:edge
+2025-06-26 19:07:29,702 act:relu
+2025-06-26 19:07:29,702 norm:batch
+2025-06-26 19:07:29,702 bias:True
+2025-06-26 19:07:29,702 n_filters:64
+2025-06-26 19:07:29,702 n_blocks:14
+2025-06-26 19:07:29,702 dropout:0.5
+2025-06-26 19:07:29,702 use_dilation:True
+2025-06-26 19:07:29,702 epsilon:0.2
+2025-06-26 19:07:29,702 stochastic:True
+2025-06-26 19:07:29,702 exp_name:PartnetSemanticSeg
+2025-06-26 19:07:29,702 root_dir:log
+2025-06-26 19:07:29,702 category_no:21
+2025-06-26 19:07:29,702 device:cpu
+2025-06-26 19:07:29,702 jobname:PartnetSemanticSeg-21-Table-L3-res-edge-n14-C64-k9-drop0.5-lr0.005_B6
+2025-06-26 19:07:29,702 exp_dir:log/PartnetSemanticSeg-21-Table-L3-res-edge-n14-C64-k9-drop0.5-lr0.005_B6_20250626-190729_863ddb6f-84a0-40ab-9a48-7df095d89434
+2025-06-26 19:07:29,702 ckpt_dir:log/PartnetSemanticSeg-21-Table-L3-res-edge-n14-C64-k9-drop0.5-lr0.005_B6_20250626-190729_863ddb6f-84a0-40ab-9a48-7df095d89434/checkpoint
+2025-06-26 19:07:29,702 code_dir:log/PartnetSemanticSeg-21-Table-L3-res-edge-n14-C64-k9-drop0.5-lr0.005_B6_20250626-190729_863ddb6f-84a0-40ab-9a48-7df095d89434/code
+2025-06-26 19:07:29,702 writer:<torch.utils.tensorboard.writer.SummaryWriter object at 0x7c15ab816e90>
+2025-06-26 19:07:29,702 epoch:-1
+2025-06-26 19:07:29,702 step:-1
+2025-06-26 19:07:29,702 loglevel:info
+2025-06-26 19:07:29,702 ==========     args END    =============
+2025-06-26 19:07:29,702 
+
+2025-06-26 19:07:29,702 ===> Phase is train.
+2025-06-26 19:07:29,704 ===> Creating dataloader ...

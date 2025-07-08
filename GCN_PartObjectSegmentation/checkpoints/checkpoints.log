@@ -1,0 +1,91 @@
+2025-06-26 22:03:32,322 saving log, checkpoint and back up code in folder: checkpoints
+2025-06-26 22:03:32,322 ==========       args      =============
+2025-06-26 22:03:32,322 phase:test
+2025-06-26 22:03:32,322 use_cpu:False
+2025-06-26 22:03:32,322 data_dir:/data/deepgcn/partnet
+2025-06-26 22:03:32,322 dataset:sem_seg_h5
+2025-06-26 22:03:32,322 category:Bed
+2025-06-26 22:03:32,322 level:3
+2025-06-26 22:03:32,322 batch_size:6
+2025-06-26 22:03:32,322 test_batch_size:1
+2025-06-26 22:03:32,322 in_channels:3
+2025-06-26 22:03:32,322 data_augment:False
+2025-06-26 22:03:32,322 total_epochs:1
+2025-06-26 22:03:32,322 iter:-1
+2025-06-26 22:03:32,322 lr_adjust_freq:50
+2025-06-26 22:03:32,322 lr:0.005
+2025-06-26 22:03:32,322 lr_decay_rate:0.9
+2025-06-26 22:03:32,322 multi_gpus:False
+2025-06-26 22:03:32,322 seed:3
+2025-06-26 22:03:32,322 pretrained_model:checkpoints/PartnetSemanticSeg-Bed-L3-res-edge-n28-C64-k9-drop0.5-lr0.005_B6-val_best_model.pth
+2025-06-26 22:03:32,322 k:9
+2025-06-26 22:03:32,322 block:res
+2025-06-26 22:03:32,322 conv:edge
+2025-06-26 22:03:32,322 act:relu
+2025-06-26 22:03:32,322 norm:batch
+2025-06-26 22:03:32,322 bias:True
+2025-06-26 22:03:32,322 n_filters:64
+2025-06-26 22:03:32,322 n_blocks:28
+2025-06-26 22:03:32,322 dropout:0.5
+2025-06-26 22:03:32,322 use_dilation:True
+2025-06-26 22:03:32,322 epsilon:0.2
+2025-06-26 22:03:32,322 stochastic:True
+2025-06-26 22:03:32,322 exp_name:PartnetSemanticSeg
+2025-06-26 22:03:32,322 root_dir:log
+2025-06-26 22:03:32,322 category_no:1
+2025-06-26 22:03:32,322 device:cpu
+2025-06-26 22:03:32,322 exp_dir:checkpoints
+2025-06-26 22:03:32,322 res_dir:checkpoints/result/res/Bed
+2025-06-26 22:03:32,322 loglevel:info
+2025-06-26 22:03:32,322 ==========     args END    =============
+2025-06-26 22:03:32,322 
+
+2025-06-26 22:03:32,322 ===> Phase is test.
+2025-06-26 22:03:32,323 ===> Creating dataloader ...
+2025-06-26 22:03:52,346 saving log, checkpoint and back up code in folder: checkpoints
+2025-06-26 22:03:52,347 ==========       args      =============
+2025-06-26 22:03:52,347 phase:test
+2025-06-26 22:03:52,347 use_cpu:False
+2025-06-26 22:03:52,347 data_dir:/home/yusuf/DeepPicking/data/deepgcn/partnet/
+2025-06-26 22:03:52,347 dataset:sem_seg_h5
+2025-06-26 22:03:52,347 category:Bed
+2025-06-26 22:03:52,347 level:3
+2025-06-26 22:03:52,347 batch_size:6
+2025-06-26 22:03:52,347 test_batch_size:1
+2025-06-26 22:03:52,347 in_channels:3
+2025-06-26 22:03:52,347 data_augment:False
+2025-06-26 22:03:52,347 total_epochs:1
+2025-06-26 22:03:52,347 iter:-1
+2025-06-26 22:03:52,347 lr_adjust_freq:50
+2025-06-26 22:03:52,347 lr:0.005
+2025-06-26 22:03:52,347 lr_decay_rate:0.9
+2025-06-26 22:03:52,347 multi_gpus:False
+2025-06-26 22:03:52,347 seed:3
+2025-06-26 22:03:52,347 pretrained_model:checkpoints/PartnetSemanticSeg-Bed-L3-res-edge-n28-C64-k9-drop0.5-lr0.005_B6-val_best_model.pth
+2025-06-26 22:03:52,347 k:9
+2025-06-26 22:03:52,347 block:res
+2025-06-26 22:03:52,347 conv:edge
+2025-06-26 22:03:52,347 act:relu
+2025-06-26 22:03:52,347 norm:batch
+2025-06-26 22:03:52,347 bias:True
+2025-06-26 22:03:52,347 n_filters:64
+2025-06-26 22:03:52,347 n_blocks:28
+2025-06-26 22:03:52,347 dropout:0.5
+2025-06-26 22:03:52,347 use_dilation:True
+2025-06-26 22:03:52,347 epsilon:0.2
+2025-06-26 22:03:52,347 stochastic:True
+2025-06-26 22:03:52,347 exp_name:PartnetSemanticSeg
+2025-06-26 22:03:52,347 root_dir:log
+2025-06-26 22:03:52,347 category_no:1
+2025-06-26 22:03:52,347 device:cpu
+2025-06-26 22:03:52,347 exp_dir:checkpoints
+2025-06-26 22:03:52,347 res_dir:checkpoints/result/res/Bed
+2025-06-26 22:03:52,347 loglevel:info
+2025-06-26 22:03:52,347 ==========     args END    =============
+2025-06-26 22:03:52,347 
+
+2025-06-26 22:03:52,347 ===> Phase is test.
+2025-06-26 22:03:52,348 ===> Creating dataloader ...
+2025-06-26 22:03:52,386 ===> Loading PartNet Category 1-Bed, Semantic Segmentation level 3. Has classes 15
+2025-06-26 22:03:52,386 ===> Loading the network ...
+2025-06-26 22:03:52,440 ===> loading pre-trained ...

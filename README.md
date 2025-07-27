@@ -27,9 +27,9 @@ To visualize the part object segments run this code:
 
 	python3 -u visualize.py --dir_path /home/data/part_sem_seg/pretrained_partnet_ResGCN-28/result --category 20 --obj_no 1
 	
-## The Pose estimation and Object identification on the PVCparts
-The Pose estimation and Object identification on the PVCparts data using a Pose Mask R-CNN requires **MATLAB** and a MATLAB license. 
-To recreate the results simple run the pose_estimation.m file with:
+## Object identification on the PVCparts
+The Object identification on the PVCparts dataset using a Pose Mask R-CNN can be run with this command:
 
-	run(pose_estimation.m)
+	python3 ObjectDetectionPVCParts.py
 
+Make sure to adjust path to where you have the dataset stored.

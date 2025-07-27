@@ -1,10 +1,12 @@
 # Novel Deep Learning with Point Clouds and Graph Convolutional Networks
-This is the code for the paper "Novel Deep Learning with Point Clouds and Graph
+This is the code for the paper "Deep Learning with Point Clouds and Graph
 Convolutional Networks" by Yusuf Etke.
 
 The segmenation pipelines for RGB images and the part object segmentation with a GCN require python and additional libararies that can be installed with.
 
 	pip install -r requirements.txt
+
+## Object segmentation with AmazonArmbench
 
 To run the sam2 unseen segmenation execute the command:
 

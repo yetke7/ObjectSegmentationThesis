@@ -10,6 +10,8 @@ from architecture import DeepGCN
 from utils.ckpt_util import load_pretrained_models
 from utils.data_util import PartNet
 import logging
+from sklearn.metrics import accuracy_score, precision_score, f1_score
+
 
 g_class2color = {
                     '0': [255,  0,  0],
@@ -86,6 +88,9 @@ def test(model, loader, opt):
     model.eval()
     shape_iou_tot = 0.
     shape_iou_cnt = 0.
+    all_preds = []
+    all_targets = []
+
     with torch.no_grad():
         for i, data in enumerate(tqdm(loader)):
             # open files for output
@@ -102,6 +107,9 @@ def test(model, loader, opt):
             pos = data.pos.transpose(2, 1).squeeze(0).cpu().numpy()
             pred_np = pred.cpu().squeeze(0).numpy()
             target_np = gt.cpu().squeeze(0).numpy()
+            all_preds.extend(pred_np.tolist())
+            all_targets.extend(target_np.tolist())
+
 
             for i in range(len(pred_np)):
                 cls_pred = str(pred_np[i])
@@ -134,12 +142,22 @@ def test(model, loader, opt):
                 shape_iou_tot += cur_shape_miou
                 shape_iou_cnt += 1.
 
+    all_preds = np.array(all_preds)
+    all_targets = np.array(all_targets)
+
+    accuracy = accuracy_score(all_targets, all_preds)
+    precision = precision_score(all_targets, all_preds, average='weighted', zero_division=0)
+    f1 = f1_score(all_targets, all_preds, average='weighted', zero_division=0)
+
+
     shape_mIoU = shape_iou_tot / shape_iou_cnt
     part_iou = np.divide(part_intersect[1:], part_union[1:])
     mean_part_iou = np.mean(part_iou)
-    logging.info("===> Finish Testing! Category {}-{}, Part mIOU is {:.4f} \n\n\n ".format(
-                      opt.category_no, opt.category, mean_part_iou))
+    part_iou = np.divide(part_intersect[1:], part_union[1:])
+    mean_part_iou = np.mean(part_iou)
 
+    logging.info("===> Finish Testing! Category {}-{}, Accuracy: {:.4f}, Precision: {:.4f}, F1: {:.4f}, Part mIOU: {:.4f}, Shape mIoU: {:.4f}\n\n".format(
+        opt.category_no, opt.category, accuracy, precision, f1, mean_part_iou, shape_mIoU))
 
 if __name__ == '__main__':
     opt = OptInit()._get_args()

@@ -6,7 +6,7 @@ The segmenation pipelines for RGB images and the part object segmentation with a
 
 	pip install -r requirements.txt
 
-## Object segmentation with AmazonArmbench
+## Object segmentation on AmazonArmbench
 
 To run the sam2 unseen segmenation execute the command:
 

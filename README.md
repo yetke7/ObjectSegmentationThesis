@@ -1,4 +1,4 @@
-# Novel Deep Learning with Point Clouds and Graph Convolutional Networks
+# Deep Learning with Point Clouds and Graph Convolutional Networks
 This is the code for the paper "Deep Learning with Point Clouds and Graph
 Convolutional Networks" by Yusuf Etke.
 

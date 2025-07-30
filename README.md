@@ -16,7 +16,7 @@ Ensure that the path to the dataset has been adjusted to your own path.
 
 To run segmentation using Mask R-CNN run the following code in the Mask R-CNNSegmentation folder
 
-	python test_mask_rcnn.py --dataset_path /path/to/armbench/segmentation
+	python test_mask_rcnn.py --dataset_path $AB_SEG_DATA
 	
 Set dataset path to where you downloaded the dataset, view readme in Mask-RCNNSegmentation for clarification.
 

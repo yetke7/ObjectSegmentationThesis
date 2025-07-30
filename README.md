@@ -29,9 +29,9 @@ To visualize the part object segments run this code:
 
 	python3 -u visualize.py --dir_path /home/data/part_sem_seg/pretrained_partnet_ResGCN-28/result --category 20 --obj_no 1
 	
-## Object identification on the PVCparts
-The Object identification on the PVCparts dataset using a Pose Mask R-CNN can be run with this command:
+## Object Segmentation on the PVCparts
+The Object identification on the PVCparts dataset using the experimental Mask R-CNN can be run with this command:
 
-	python3 ObjectDetectionPVCParts.py
+	python3 ObjectSegmentationPVCParts.py
 
 Make sure to adjust path to where you have the dataset stored.

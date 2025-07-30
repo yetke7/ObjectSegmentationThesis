@@ -10,8 +10,8 @@ The segmenation pipelines for RGB images and the part object segmentation with a
 
 To run the sam2 unseen segmenation execute the command:
 
-	python3 segment_image.py
-
+	python3 segmentation.py
+ 
 Ensure that the path to the dataset has been adjusted to your own path.
 
 To run segmentation using Mask RCNN run the following code in the Mask-RCNNSegmentation folder

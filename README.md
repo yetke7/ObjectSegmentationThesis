@@ -20,6 +20,8 @@ To run segmentation using Mask R-CNN run the following code in the Mask R-CNNSeg
 	
 Set dataset path to where you downloaded the dataset, view readme in Mask-RCNNSegmentation for clarification.
 
+![Image](https://github.com/user-attachments/assets/e0011322-a98f-41cf-b7fc-179f0f2508a7)
+
 ## Part object segmentation using the GCN
 For part object segmentation using the GCN run the following code, using the pretrained ResGCN, category refers to categories from partnet, make sure to request access on https://shapenet.org/ and place the dataset in a directory named partnet.
 

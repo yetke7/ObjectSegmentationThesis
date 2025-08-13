@@ -1,17 +1,3 @@
-%% 
-function datasetUnzipFolder = helperDownloadPVCPartsDataset()
-    datasetURL = "https://ssd.mathworks.com/supportfiles/vision/data/pvcparts100Dataset.zip";
-    datasetUnzipFolder = fullfile(tempdir, "dataset");
-    datasetZip = fullfile(datasetUnzipFolder,"pvcparts100Dataset.zip");
-    if ~exist(datasetZip,"file")
-        mkdir(datasetUnzipFolder);
-        disp("Downloading PVC Parts dataset (200 MB)...");
-        websave(datasetZip, datasetURL);
-    end
-    unzip(datasetZip, datasetUnzipFolder)
-end
-datasetUnzipFolder = helperDownloadPVCPartsDataset;
-
 function out = helperSimAnnotMATReader(filename,datasetRoot)
 % Read annotations for simulated bin picking dataset
 % Expected folder structure under `datasetRoot`:

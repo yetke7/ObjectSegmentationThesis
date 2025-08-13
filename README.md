@@ -32,6 +32,6 @@ To visualize the part object segments run this code:
 ## Object Segmentation on the PVCparts
 The Object identification on the PVCparts dataset using the experimental Mask R-CNN can be run with this command:
 
-	run(ObjectSegmentationPVCParts.m)
+	run(ObjectSegmentationPVCParts)
 
 Make sure to adjust path to where you have the dataset stored.

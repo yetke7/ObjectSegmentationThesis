@@ -1,6 +1,6 @@
 # Implementation of Deep Learning Methods on RGB Images and 3D Point Clouds for Object Segmentation
-This is the code for the paper "Enlightening Object Segmentation with Point Clouds and Graph
-Convolutional Networks" by Yusuf Etke. Original code can be found in the referred papers.
+This is the code for the paper "Object Segmentation with Point Clouds and Graph
+Convolutional Networks" by Yusuf Etke. Original code can be found in the referred papers. 
 
 The segmenation pipelines for RGB images and the part object segmentation with a GCN require python and additional libararies that can be installed with.
 

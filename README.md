@@ -35,3 +35,5 @@ The Object identification on the PVCparts dataset using the experimental Mask R-
 	run(ObjectSegmentationPVCParts)
 
 Make sure to adjust path to where you have the dataset stored.
+
+<img width="830" height="631" alt="Image" src="https://github.com/user-attachments/assets/dd6bb0c8-bd17-446d-b0fc-5bc67707dd0f" />

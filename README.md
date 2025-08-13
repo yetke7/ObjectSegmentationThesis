@@ -28,7 +28,9 @@ For part object segmentation using the GCN run the following code, using the pre
 To visualize the part object segments run this code:
 
 	python3 -u visualize.py --dir_path /home/data/part_sem_seg/pretrained_partnet_ResGCN-28/result --category 20 --obj_no 1
-	
+ 
+<img width="400" height="719" alt="Image" src="https://github.com/user-attachments/assets/0a7bb8b1-9851-4425-b2fb-6ef5f1f84c20" />
+
 ## Object Segmentation on the PVCparts
 The Object identification on the PVCparts dataset using the experimental Mask R-CNN can be run with this command:
 
